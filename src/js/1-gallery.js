@@ -1,5 +1,7 @@
-import SimpleLightbox from "simplelightbox";
-import "simplelightbox/dist/simple-lightbox.min.css";
+import SimpleLightbox from 'simplelightbox';
+import 'simplelightbox/dist/simple-lightbox.min.css';
+
+
 
 
 const images = [
@@ -51,8 +53,10 @@ const images = [
   ];
   
 
-const gallery = document.querySelector('.gallery');
-
+  const gallery = document.querySelector('.gallery');
+  if (!gallery) {
+      console.error('Элемент с классом .gallery не найден');
+  }
 
 const markup = images
   .map(
