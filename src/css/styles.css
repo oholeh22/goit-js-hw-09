@@ -121,7 +121,7 @@ scale: 1.1;
 /* Стили при клике */
 .item-link a:active {
   background-color: #004085; 
-  transform: scale(0.98); /
+  transform: scale(0.98); 
 }
 
 /* Стили для ссылки-кнопки "Main Page" */
