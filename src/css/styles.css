@@ -179,3 +179,78 @@ scale: 1.1;
   background-color: #1e7e34; 
   transform: scale(0.98); 
 }
+
+/* Back button styling */
+.button-link {
+  display: block; /* изменено с inline-block */
+  width: fit-content; /* установить ширину по содержимому */
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  text-align: center; /* чтобы текст внутри был по центру */
+}
+
+
+.button-link:hover {
+  background-color: #45a049;
+}
+
+/* Form container styling */
+.feedback-form {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Form label styling */
+.feedback-form label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #333;
+  font-size: 14px;
+}
+
+/* Input and textarea styling */
+.feedback-form input[type="email"],
+.feedback-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.feedback-form input[type="email"]:focus,
+.feedback-form textarea:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+/* Submit button styling */
+.feedback-form button[type="submit"] {
+  width: 100%;
+  padding: 12px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.feedback-form button[type="submit"]:hover {
+  background-color: #45a049;
+}
